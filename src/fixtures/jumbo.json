@@ -22,5 +22,13 @@
     "image": "/images/misc/home-imac.jpg",
     "alt": "Money Heist on Netflix",
     "direction": "row"
+  },
+  {
+    "id": 4,
+    "title": "Create Profiles for children.",
+    "subTitle": "Send children on adventures with their favourite characters in a space made just for them—free with your membership.",
+    "image": "/images/misc/home-children.png",
+    "alt": "Over The Moon on Netflix",
+    "direction": "row-reverse"
   }
 ]
