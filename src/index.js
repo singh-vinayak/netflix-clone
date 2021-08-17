@@ -1,5 +1,4 @@
 import React from 'react';
-import firebase from 'firebase';
 import ReactDOM from 'react-dom';
 import { GlobalStyles } from './global-styles';
 import { App } from './app';
@@ -14,7 +13,9 @@ const config = {
     appId: "1:536218764750:web:dc645a1c1719f18cf0579f",
 }
 
-firebase.initializeApp(config);
+//firebase.initializeApp(config);
+
+const firebase = window.firebase.initializeApp(config);
 
 ReactDOM.render(
     <FirebaseContext.Provider value={{ firebase: window.firebase }}>
@@ -23,3 +24,4 @@ ReactDOM.render(
     </FirebaseContext.Provider>,
     document.getElementById('root')
 );
+
